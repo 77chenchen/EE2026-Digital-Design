@@ -1,0 +1,12 @@
+time=1000 A=0 B=0 pb=0 S=0 an=14 seg=161
+time=21000 A=0 B=0 pb=1 S=0 an=1 seg=161
+time=41000 A=0 B=63 pb=1 S=31 an=1 seg=161
+time=61000 A=2 B=63 pb=0 S=1 an=14 seg=161
+time=81000 A=5 B=9 pb=0 S=14 an=14 seg=161
+time=101000 A=5 B=9 pb=1 S=7 an=1 seg=161
+time=121000 A=31 B=1 pb=0 S=32 an=14 seg=161
+time=141000 A=31 B=1 pb=1 S=16 an=1 seg=161
+time=161000 A=40 B=23 pb=0 S=63 an=14 seg=161
+time=181000 A=40 B=24 pb=1 S=0 an=1 seg=161
+PASS: all 10 GPT-2 simulation sets
+work/lab2_bundle/gpt2/sim/tb_gpt2_device.v:68: $finish called at 200000 (1ps)
