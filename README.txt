@@ -8,8 +8,10 @@ Personalisation used:
   Structural split: 2 most-significant bits and 4 least-significant bits
   Pushbutton role: BTNR, exposed as the required top-level port pb
   Alternate result: DR divided by 2 using {1'b0, DR[5:1]}
+  Result selection: assign S = pb ? AR : DR
   Initial an: 4'b1110
   Pressed an: 4'b0001
+  Anode selection: assign an = pb ? inverted_an : initial_an
   seg: 8'b10100001 (lowercase d on AN0)
 
 Vivado 2025.2:
